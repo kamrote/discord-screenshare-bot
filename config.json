@@ -1,0 +1,9 @@
+{
+    "streambot_token":"",
+    "commandbot_token":"",
+    "command_channel":"",
+    "guild_id":"",
+
+    "stream_quality":"1080",
+    "stream_framerate":30
+}
