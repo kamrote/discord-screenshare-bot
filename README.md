@@ -1,6 +1,6 @@
 # Screenshare movies/youtube to discord
 
-## Notes
+## Info
 - This is mainly made to work on linux, may work on windows also, but doubt it.
 - if your planning on streaming a 1080p movie, or even at 720. your gonna need an actual decent server, otherwise the screenshare is just gonna lag terribly
 - For anybody wondering why this uses RobotJS to click the screenshare instead of just making puppeteer auto set the screenshare tab, for whatever reason even after 5 years of people asking, puppeteer wont add a option to accept screensharing audio.
