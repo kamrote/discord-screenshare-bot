@@ -7,6 +7,7 @@
 - If you select 1920x1080 as a resolution but discord still says the quality is 720, it is streaming 1080. its just that if you stream from the browser it auto shows as 720p
 - Yes, it uses a 1.5 year old version of discordjs. dont care.
 - Make sure to set whatever video it streams to fullscreen on the target site.
+- Something in this is probably broken, sorry in advance lol.
 - If done correctly, this should work with netflix, youtube, pirating sites, and other streaming services.
 
 ## How to install
@@ -40,4 +41,5 @@ There may be more commands to fix things that i simply dont remember putting in,
 - Set the discord token of the bot to receive commands in config.json
 - Set the discord token to the bot to stream the video in config.json
 - Set the channel ID's in config.json
+- set either 720 or 1080 in config.json
 - Make sure the executablePath for puppeteer is the right location for chrome installation
