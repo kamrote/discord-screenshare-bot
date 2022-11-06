@@ -39,7 +39,7 @@ There may be more commands to fix things that i simply dont remember putting in,
 ### Setup
 - npm i
 - Set the discord token of the bot to receive commands in config.json
-- Set the discord token to the real discord account to stream the video in config.json
+- Find the token of the *REAL* discord account that your going to use to go live, and put it in streambot_token inside of config.json (obviously make sure this account is in the discord server being used, and has permissions to join channels)
 - Set the channel ID's in config.json
 - Set either 720 or 1080 in config.json
 - Make sure the executablePath for puppeteer is the right location for chrome installation
