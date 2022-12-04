@@ -15,6 +15,8 @@ Download repository
 
 Install chrome
 - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add
+- wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+- sudo apt install ./google-chrome-stable_current_amd64.deb
 - sudo apt-get install google-chrome-stable
 
 Install XVFB
@@ -25,7 +27,7 @@ Install required libraries for RobotJS
 - sudo apt-get install libxtst-dev libpng++-dev
 - npm install -g node-gyp
 - node-gyp rebuild
-- sudo apt-get install python-pip
+- sudo apt-get install python-pip (if this commands doesnt work: sudo apt-get install python3-pip)
 - sudo apt install make
 - sudo apt install build-essential
 - sudo apt-get install manpages-dev
@@ -43,3 +45,10 @@ There may be more commands to fix things that i simply dont remember putting in,
 - Set the channel ID's in config.json
 - Set either 720 or 1080 in config.json
 - Make sure the executablePath for puppeteer is the right location for chrome installation
+
+### Video of it being used at 720p (slightly laggy since its on a bad server)
+https://user-images.githubusercontent.com/85530913/205511368-81cf4382-b7f2-472b-810b-0f19e2fae907.mp4
+
+## Known issues
+- Audio sometimes distorted, prob because of xvfb
+- Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button
