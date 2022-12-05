@@ -17,7 +17,6 @@ Install chrome
 - wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add
 - wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 - sudo apt install ./google-chrome-stable_current_amd64.deb
-- sudo apt-get install google-chrome-stable
 
 Install XVFB
 - sudo apt-get install xvfb
