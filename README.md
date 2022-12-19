@@ -49,5 +49,5 @@ There may be more commands to fix things that i simply dont remember putting in,
 https://user-images.githubusercontent.com/85530913/205511368-81cf4382-b7f2-472b-810b-0f19e2fae907.mp4
 
 ## Known issues
-- Audio sometimes distorted, prob because of xvfb
-- Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button
+- Audio sometimes distorted, prob because of xvfb (SHOULD BE FIXED NOW)
+- Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button (typically fixed by setting "screen_pos[2].y" on line 161 to 565)

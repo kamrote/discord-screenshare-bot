@@ -130,7 +130,16 @@ async function do_puppeteer(vc_id, website_link, msg) {
                     height: height,
                 },
             },
-            audio: true
+            audio: {
+                autoGainControl: false,
+                echoCancellation: false,
+                googAutoGainControl: false,
+                noiseSuppresion: false,
+                sampleRate: 260000,
+                sampleSize: 48,
+                latency: 0,
+                channelCount: 2,
+            }
           })
           gdm
           return gdm;
