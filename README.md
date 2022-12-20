@@ -3,13 +3,11 @@
 - unfortunately due to how discord works on browser, both outgoing audio from your mic and screenshare are compressed. causing the screenshared audio to often sound flat/distorted. until discord adds their own way for bots to screenshare or fix the compression. audio will sound slightly worse than if you were actually watching what is being screenshared
 
 ## Info
-- This is mainly made to work on linux, may work on windows also, but doubt it.
+- made for ubuntu, not tested on any other os
 - if your planning on streaming a 1080p movie, or even at 720. your gonna need an actual decent server, otherwise the screenshare is just gonna lag terribly
 - For anybody wondering why this uses RobotJS to click the screenshare instead of just making puppeteer auto set the screenshare tab, for whatever reason even after 5 years of people asking, puppeteer wont add a option to accept screensharing audio.
 - If you select 1920x1080 as a resolution but discord still says the quality is 720, it is streaming 1080. its just that if you stream from the browser it auto shows as 720p
-- Yes, it uses a 1.5 year old version of discordjs. dont care.
 - Make sure to set whatever video it streams to fullscreen on the target site.
-- Something in this is probably broken, sorry in advance lol.
 - If done correctly, this should work with netflix, youtube, pirating sites, and other streaming services.
 
 ## How to install
@@ -51,4 +49,4 @@ There may be more commands to fix things that i simply dont remember putting in,
 https://user-images.githubusercontent.com/85530913/205511368-81cf4382-b7f2-472b-810b-0f19e2fae907.mp4
 
 ## Known issues
-- Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button (typically fixed by setting "screen_pos[2].y" on line 161 to 565)
+- Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button (typically fixed by changing "screen_pos[2].y" on line 161 to 565)
