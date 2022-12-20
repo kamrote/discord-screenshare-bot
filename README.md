@@ -1,5 +1,7 @@
 # Screenshare movies/youtube to discord
 
+- unfortunately due to how discord works on browser, both outgoing audio from your mic and screenshare are compressed. causing the screenshared audio to often sound flat/distorted. until discord adds their own way for bots to screenshare or fix the compression. audio will sound will sound much worse than if you were actually watching what is being screenshared
+
 ## Info
 - This is mainly made to work on linux, may work on windows also, but doubt it.
 - if your planning on streaming a 1080p movie, or even at 720. your gonna need an actual decent server, otherwise the screenshare is just gonna lag terribly
@@ -49,5 +51,4 @@ There may be more commands to fix things that i simply dont remember putting in,
 https://user-images.githubusercontent.com/85530913/205511368-81cf4382-b7f2-472b-810b-0f19e2fae907.mp4
 
 ## Known issues
-- Audio sometimes distorted, prob because of xvfb (SHOULD BE FIXED NOW)
 - Puppeteer sometimes doesnt go full maximized making it so it cant click the screenshare button (typically fixed by setting "screen_pos[2].y" on line 161 to 565)
