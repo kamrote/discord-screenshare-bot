@@ -1,6 +1,6 @@
 # Screenshare movies/youtube to discord
 
-- unfortunately due to how discord works on browser, both outgoing audio from your mic and screenshare are compressed. causing the screenshared audio to often sound flat/distorted. until discord adds their own way for bots to screenshare or fix the compression. audio will sound will sound much worse than if you were actually watching what is being screenshared
+- unfortunately due to how discord works on browser, both outgoing audio from your mic and screenshare are compressed. causing the screenshared audio to often sound flat/distorted. until discord adds their own way for bots to screenshare or fix the compression. audio will sound slightly worse than if you were actually watching what is being screenshared
 
 ## Info
 - This is mainly made to work on linux, may work on windows also, but doubt it.
